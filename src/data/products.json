@@ -1,0 +1,490 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Sparkling Lines",
+      "category": "Designer Collection",
+      "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
+      "description": "A modern laminate with a sparkling linear pattern.",
+      "variants": [
+        {
+          "id": 101,
+          "name": "Silver Sparkle",
+          "image": "https://images.unsplash.com/photo-1605106702734-205df224ecce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Silver-toned linear pattern with subtle metallic shimmer"
+        },
+        {
+          "id": 102,
+          "name": "Gold Radiance",
+          "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1400&q=80",
+          "description": "Warm golden linear pattern with elegant sparkle"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Marble Finish",
+      "category": "Designer Collection",
+      "image": "https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Elegant marble-effect laminate with a natural look.",
+      "variants": [
+        {
+          "id": 201,
+          "name": "Carrara White",
+          "image": "https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Classic white marble with soft grey veining"
+        },
+        {
+          "id": 202,
+          "name": "Nero Black",
+          "image": "https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Deep black marble with dramatic white streaks"
+        },
+        {
+          "id": 203,
+          "name": "Calacatta Gold",
+          "image": "https://images.pexels.com/photos/326311/pexels-photo-326311.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Luxurious marble with golden undertones"
+        },
+        {
+          "id": 204,
+          "name": "Emperador Brown",
+          "image": "https://images.pexels.com/photos/1261428/pexels-photo-1261428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Rich brown marble with subtle cream veining"
+        },
+        {
+          "id": 205,
+          "name": "Statuario Grey",
+          "image": "https://images.pexels.com/photos/1261428/pexels-photo-1261428.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Soft grey marble with elegant, subtle patterns"
+        },
+        {
+          "id": 206,
+          "name": "Sahara Noir",
+          "image": "https://images.unsplash.com/photo-1565118531793-45919b43a997?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Dark marble with intricate natural patterns"
+        },
+        {
+          "id": 207,
+          "name": "Arctic White",
+          "image": "https://images.pexels.com/photos/235731/pexels-photo-235731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Pure white marble with minimal veining"
+        },
+        {
+          "id": 208,
+          "name": "Emperador Light",
+          "image": "https://images.unsplash.com/photo-1604871000636-074fa5117945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+          "description": "Light brown marble with subtle texture"
+        },
+        {
+          "id": 209,
+          "name": "Verde Antigua",
+          "image": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Green-tinted marble with natural stone appearance"
+        },
+        {
+          "id": 210,
+          "name": "Travertine Cream",
+          "image": "https://images.unsplash.com/photo-1605106702734-205df224ecce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Soft cream marble with natural limestone effect"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Majesty Lines",
+      "category": "Designer Collection",
+      "image": "https://images.pexels.com/photos/1916821/pexels-photo-1916821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Premium decorative laminate with fine majestic lines.",
+      "variants": [
+        {
+          "id": 301,
+          "name": "Royal Blue Elegance",
+          "image": "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+          "description": "Deep blue lines with regal, sophisticated pattern"
+        },
+        {
+          "id": 302,
+          "name": "Platinum Precision",
+          "image": "https://images.pexels.com/photos/1916821/pexels-photo-1916821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Sleek platinum-toned lines with refined geometric design"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Majestic Series",
+      "category": "Designer Collection",
+      "image": "https://images.unsplash.com/photo-1629976002377-aad3c9a2cd9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+      "description": "Classic series of laminates with rich textures and hues.",
+      "variants": [
+        {
+          "id": 401,
+          "name": "Imperial Bronze",
+          "image": "https://images.unsplash.com/photo-1629976002377-aad3c9a2cd9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+          "description": "Rich bronze texture with deep, warm undertones"
+        },
+        {
+          "id": 402,
+          "name": "Regal Copper",
+          "image": "https://images.pexels.com/photos/1252812/pexels-photo-1252812.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Vibrant copper finish with luxurious metallic sheen"
+        },
+        {
+          "id": 403,
+          "name": "Noble Mahogany",
+          "image": "https://images.unsplash.com/photo-1603921326210-6edd2d60ca68?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Deep mahogany with classic wood-grain texture"
+        },
+        {
+          "id": 404,
+          "name": "Sovereign Slate",
+          "image": "https://images.pexels.com/photos/2351834/pexels-photo-2351834.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Sophisticated slate grey with subtle textural variations"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Magic Bricks",
+      "category": "Designer Collection",
+      "image": "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+      "description": "Inspired by architectural brick designs for a unique look.",
+      "variants": [
+        {
+          "id": 503,
+          "name": "Urban Rustic",
+          "image": "https://images.unsplash.com/photo-1560448204-603b3fc33ddc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+          "description": "Weathered brick design with authentic urban texture"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Wooden Flute Series",
+      "category": "Wood Finishes",
+      "image": "https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Natural wood-inspired laminate with flute-style patterns.",
+      "variants": [
+        {
+          "id": 604,
+          "name": "Oak Symphony",
+          "image": "https://images.pexels.com/photos/129733/pexels-photo-129733.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Classic oak with smooth, melodic wood grain pattern"
+        },
+        {
+          "id": 605,
+          "name": "Walnut Harmony",
+          "image": "https://images.unsplash.com/photo-1566312922674-6006d7cd1359?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+          "description": "Rich walnut with intricate flute-inspired lines"
+        },
+        {
+          "id": 606,
+          "name": "Maple Rhythm",
+          "image": "https://images.pexels.com/photos/2096543/pexels-photo-2096543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Light maple with gentle, flowing wood patterns"
+        },
+        {
+          "id": 607,
+          "name": "Teak Melody",
+          "image": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+          "description": "Warm teak with sophisticated wood grain design"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Super Gloss",
+      "category": "Solid Colors",
+      "image": "https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "High-gloss laminate with an ultra-smooth surface.",
+      "variants": [
+        {
+          "id": 701,
+          "name": "Crystal White",
+          "image": "https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Pure, brilliant white with mirror-like finish"
+        },
+        {
+          "id": 702,
+          "name": "Midnight Black",
+          "image": "https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1530&q=80",
+          "description": "Deep, intense black with ultra-smooth surface"
+        },
+        {
+          "id": 703,
+          "name": "Arctic Blue",
+          "image": "https://images.pexels.com/photos/1020315/pexels-photo-1020315.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Cool, crisp blue with high-gloss sheen"
+        },
+        {
+          "id": 704,
+          "name": "Sunset Orange",
+          "image": "https://images.unsplash.com/photo-1579547945413-497e1b99dac0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Vibrant orange with glossy, luminous finish"
+        },
+        {
+          "id": 705,
+          "name": "Emerald Green",
+          "image": "https://images.pexels.com/photos/1020316/pexels-photo-1020316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Rich green with high-shine, premium look"
+        },
+        {
+          "id": 706,
+          "name": "Royal Purple",
+          "image": "https://images.unsplash.com/photo-1604076850742-4c7221357abb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Deep purple with luxurious, glossy surface"
+        },
+        {
+          "id": 707,
+          "name": "Crimson Red",
+          "image": "https://images.pexels.com/photos/1020317/pexels-photo-1020317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Bold red with ultra-smooth, reflective finish"
+        },
+        {
+          "id": 708,
+          "name": "Silver Grey",
+          "image": "https://images.unsplash.com/photo-1589735556624-8d99bd83d008?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Sophisticated grey with metallic-like gloss"
+        },
+        {
+          "id": 709,
+          "name": "Coral Pink",
+          "image": "https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Soft pink with high-gloss, delicate sheen"
+        },
+        {
+          "id": 710,
+          "name": "Bronze Gold",
+          "image": "https://images.unsplash.com/photo-1629976002377-aad3c9a2cd9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+          "description": "Warm bronze with rich, metallic gloss"
+        },
+        {
+          "id": 711,
+          "name": "Sky Blue",
+          "image": "https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Light, airy blue with smooth, glossy surface"
+        },
+        {
+          "id": 712,
+          "name": "Olive Green",
+          "image": "https://images.unsplash.com/photo-1517282009859-f000ec3b26fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Muted olive with high-shine, sophisticated finish"
+        },
+        {
+          "id": 713,
+          "name": "Mustard Yellow",
+          "image": "https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Vibrant yellow with ultra-glossy surface"
+        },
+        {
+          "id": 714,
+          "name": "Lavender",
+          "image": "https://images.unsplash.com/photo-1620503374956-c942862f0372?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Soft lavender with smooth, reflective finish"
+        },
+        {
+          "id": 715,
+          "name": "Charcoal Grey",
+          "image": "https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Deep charcoal with high-gloss, modern look"
+        },
+        {
+          "id": 716,
+          "name": "Peach",
+          "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
+          "description": "Delicate peach with luminous, glossy surface"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "PU Paint Finish",
+      "category": "Solid Colors",
+      "image": "https://images.pexels.com/photos/326259/pexels-photo-326259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Polyurethane-painted finish for durability and shine.",
+      "variants": [
+        {
+          "id": 801,
+          "name": "Stone Grey",
+          "image": "https://images.pexels.com/photos/326259/pexels-photo-326259.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Neutral stone grey with smooth polyurethane finish"
+        },
+        {
+          "id": 802,
+          "name": "Matte Ivory",
+          "image": "https://images.unsplash.com/photo-1604871000636-074fa5117945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+          "description": "Soft ivory with subtle, elegant polyurethane coating"
+        },
+        {
+          "id": 803,
+          "name": "Forest Green",
+          "image": "https://images.pexels.com/photos/1571462/pexels-photo-1571462.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Deep forest green with durable polyurethane layer"
+        },
+        {
+          "id": 804,
+          "name": "Ocean Blue",
+          "image": "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+          "description": "Rich ocean blue with protective polyurethane shine"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Acrylic Mirror Finish",
+      "category": "Textures",
+      "image": "https://images.pexels.com/photos/1723637/pexels-photo-1723637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Glossy, mirror-like acrylic laminate for a premium look.",
+      "variants": [
+        {
+          "id": 901,
+          "name": "Diamond Silver",
+          "image": "https://images.pexels.com/photos/1723637/pexels-photo-1723637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Brilliant silver mirror finish with crystal-like clarity"
+        },
+        {
+          "id": 902,
+          "name": "Rose Gold Reflection",
+          "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
+          "description": "Soft rose gold mirror with warm, elegant sheen"
+        },
+        {
+          "id": 903,
+          "name": "Platinum Gleam",
+          "image": "https://images.pexels.com/photos/1723638/pexels-photo-1723638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Cool platinum mirror with sleek, modern appearance"
+        },
+        {
+          "id": 904,
+          "name": "Bronze Metallic",
+          "image": "https://images.unsplash.com/photo-1629976002377-aad3c9a2cd9e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80",
+          "description": "Rich bronze mirror with deep, luxurious reflection"
+        },
+        {
+          "id": 905,
+          "name": "Champagne Shine",
+          "image": "https://images.pexels.com/photos/1916822/pexels-photo-1916822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Soft champagne mirror with subtle, elegant glow"
+        },
+        {
+          "id": 906,
+          "name": "Ice Blue Mirror",
+          "image": "https://images.unsplash.com/photo-1557682250-81f3414fbd49?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Cool ice blue mirror with crisp, clear reflection"
+        },
+        {
+          "id": 907,
+          "name": "Copper Luminance",
+          "image": "https://images.pexels.com/photos/1916823/pexels-photo-1916823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Warm copper mirror with rich, vibrant reflection"
+        },
+        {
+          "id": 908,
+          "name": "Gunmetal Grey",
+          "image": "https://images.unsplash.com/photo-1557800636-894a64c1696f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1530&q=80",
+          "description": "Dark gunmetal mirror with sophisticated, deep finish"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Metallic Sparkles",
+      "category": "Textures",
+      "image": "https://images.pexels.com/photos/1020318/pexels-photo-1020318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Laminate with metallic sparkle effects for a modern touch.",
+      "variants": [
+        {
+          "id": 1001,
+          "name": "Cosmic Silver",
+          "image": "https://images.pexels.com/photos/1020318/pexels-photo-1020318.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Intense silver sparkle with dynamic, starry effect"
+        },
+        {
+          "id": 1002,
+          "name": "Golden Nebula",
+          "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1400&q=80",
+          "description": "Rich gold sparkle with cosmic, swirling pattern"
+        },
+        {
+          "id": 1003,
+          "name": "Midnight Glitter",
+          "image": "https://images.pexels.com/photos/1020319/pexels-photo-1020319.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Deep black base with multi-toned metallic sparkles"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Stone Matt Finish",
+      "category": "Textures",
+      "image": "https://images.pexels.com/photos/1261429/pexels-photo-1261429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Matte-finish stone-effect laminate for a natural feel.",
+      "variants": [
+        {
+          "id": 1101,
+          "name": "Sandstone Beige",
+          "image": "https://images.pexels.com/photos/1261429/pexels-photo-1261429.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Soft beige with natural sandstone texture"
+        },
+        {
+          "id": 1102,
+          "name": "Granite Grey",
+          "image": "https://images.unsplash.com/photo-1565118531793-45919b43a997?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Solid grey with authentic granite-like matte finish"
+        },
+        {
+          "id": 1103,
+          "name": "Slate Earth",
+          "image": "https://images.pexels.com/photos/235732/pexels-photo-235732.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Earthy brown with rich, natural slate appearance"
+        },
+        {
+          "id": 1104,
+          "name": "Volcanic Black",
+          "image": "https://images.unsplash.com/photo-1565118531793-45919b43a997?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Deep black with intense, matte stone texture"
+        },
+        {
+          "id": 1105,
+          "name": "River Stone",
+          "image": "https://images.pexels.com/photos/1261430/pexels-photo-1261430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Light grey with smooth, water-worn stone effect"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Rain Drop Series",
+      "category": "Textures",
+      "image": "https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "description": "Water-inspired laminate with a beautiful raindrop effect.",
+      "variants": [
+        {
+          "id": 1203,
+          "name": "Arctic Mist",
+          "image": "https://images.pexels.com/photos/1020320/pexels-photo-1020320.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Cool blue raindrop pattern with misty, translucent effect"
+        },
+        {
+          "id": 1204,
+          "name": "Crystal Clear",
+          "image": "https://images.unsplash.com/photo-1525498128493-380d1990a112?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "Transparent raindrop design with subtle water-like texture"
+        },
+        {
+          "id": 1205,
+          "name": "Ocean Depths",
+          "image": "https://images.pexels.com/photos/1020321/pexels-photo-1020321.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "description": "Deep blue raindrop pattern with mysterious underwater feel"
+        },
+        {
+          "id": 1206,
+          "name": "Frosted Glass",
+          "image": "https://images.unsplash.com/photo-1572867911146-662e3bdd84de?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+          "description": "White frosted raindrop effect with delicate, soft texture"
+        }
+      ]
+    }
+  ]
+}
