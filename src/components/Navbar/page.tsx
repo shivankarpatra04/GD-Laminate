@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,11 +41,10 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
           {/* Logo Section */}
-          <div className="flex-shrink-0 flex items-center">
-            {/* You can add a logo image here */}
-            {/* <Image src="/logo.png" alt="GT Laminate Logo" width={40} height={40} className="mr-3" /> */}
-            <Link href="/" className="font-bold text-xl text-gray-800 hover:text-blue-600 transition-colors">
-              <span className="text-blue-600">GT</span> Laminate
+          <div className="flex-shrink-0 flex items-center gap-3">
+            <Image src="/logo.png" alt="GT Laminate Logo" width={56} height={56} className="" />
+            <Link href="/" className="font-bold text-2xl text-gray-800 hover:text-primary transition-colors tracking-normal">
+              <span className="text-primary">GT</span> Laminate
             </Link>
           </div>
 
@@ -53,31 +53,31 @@ export default function Navbar() {
             <div className="ml-10 flex items-center space-x-8">
               <Link
                 href="/"
-                className={`relative px-1 py-2 text-sm font-medium transition-colors ${isActive('/') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}
+                className={`relative px-1 py-2 text-sm font-medium transition-colors ${isActive('/') ? 'text-primary' : 'text-gray-700 hover:text-primary'}`}
               >
                 Home
-                <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 transform transition-transform duration-300 ${isActive('/') ? 'scale-x-100' : 'scale-x-0'} origin-left`}></span>
+                <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-primary transform transition-transform duration-300 ${isActive('/') ? 'scale-x-100' : 'scale-x-0'} origin-left`}></span>
               </Link>
               <Link
                 href="/products"
-                className={`relative px-1 py-2 text-sm font-medium transition-colors ${isActive('/products') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}
+                className={`relative px-1 py-2 text-sm font-medium transition-colors ${isActive('/products') ? 'text-primary' : 'text-gray-700 hover:text-primary'}`}
               >
                 Products
-                <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 transform transition-transform duration-300 ${isActive('/products') ? 'scale-x-100' : 'scale-x-0'} origin-left`}></span>
+                <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-primary transform transition-transform duration-300 ${isActive('/products') ? 'scale-x-100' : 'scale-x-0'} origin-left`}></span>
               </Link>
               <Link
                 href="/about-us"
-                className={`relative px-1 py-2 text-sm font-medium transition-colors ${isActive('/about-us') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}
+                className={`relative px-1 py-2 text-sm font-medium transition-colors ${isActive('/about-us') ? 'text-primary' : 'text-gray-700 hover:text-primary'}`}
               >
                 About Us
-                <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 transform transition-transform duration-300 ${isActive('/about-us') ? 'scale-x-100' : 'scale-x-0'} origin-left`}></span>
+                <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-primary transform transition-transform duration-300 ${isActive('/about-us') ? 'scale-x-100' : 'scale-x-0'} origin-left`}></span>
               </Link>
               <Link
                 href="/contact-us"
-                className={`relative px-1 py-2 text-sm font-medium transition-colors ${isActive('/contact-us') ? 'text-blue-600' : 'text-gray-700 hover:text-blue-600'}`}
+                className={`relative px-1 py-2 text-sm font-medium transition-colors ${isActive('/contact-us') ? 'text-primary' : 'text-gray-700 hover:text-primary'}`}
               >
                 Contact
-                <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-blue-600 transform transition-transform duration-300 ${isActive('/contact-us') ? 'scale-x-100' : 'scale-x-0'} origin-left`}></span>
+                <span className={`absolute bottom-0 left-0 w-full h-0.5 bg-primary transform transition-transform duration-300 ${isActive('/contact-us') ? 'scale-x-100' : 'scale-x-0'} origin-left`}></span>
               </Link>
             </div>
           </div>
@@ -86,7 +86,7 @@ export default function Navbar() {
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-blue-600 focus:outline-none"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-700 hover:text-primary focus:outline-none"
               aria-expanded={isMenuOpen}
             >
               <span className="sr-only">Open main menu</span>
@@ -117,28 +117,28 @@ export default function Navbar() {
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t mt-2">
             <Link
               href="/"
-              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/') ? 'text-blue-600 bg-blue-50' : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'}`}
+              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/') ? 'text-primary bg-primary/10' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link
               href="/products"
-              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/products') ? 'text-blue-600 bg-blue-50' : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'}`}
+              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/products') ? 'text-primary bg-primary/10' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
               onClick={() => setIsMenuOpen(false)}
             >
               Products
             </Link>
             <Link
               href="/about-us"
-              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/about-us') ? 'text-blue-600 bg-blue-50' : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'}`}
+              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/about-us') ? 'text-primary bg-primary/10' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
               onClick={() => setIsMenuOpen(false)}
             >
               About Us
             </Link>
             <Link
               href="/contact-us"
-              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/contact-us') ? 'text-blue-600 bg-blue-50' : 'text-gray-700 hover:text-blue-600 hover:bg-gray-50'}`}
+              className={`block px-3 py-2 rounded-md text-base font-medium ${isActive('/contact-us') ? 'text-primary bg-primary/10' : 'text-gray-700 hover:text-primary hover:bg-gray-50'}`}
               onClick={() => setIsMenuOpen(false)}
             >
               Contact

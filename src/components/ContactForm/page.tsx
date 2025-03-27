@@ -174,17 +174,17 @@ const ContactForm = () => {
         <section id="contact-form" className="py-16 bg-gray-50">
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
-                    <div className="bg-blue-600 py-6 px-8">
-                        <h2 className="text-2xl font-bold text-white">Fill the Form</h2>
-                        <p className="text-blue-100 mt-2">
-                            Our experts will get in touch shortly.
+                    <div className="bg-primary py-6 px-8">
+                        <h3 className="text-xl font-bold text-white">Contact Information</h3>
+                        <p className="text-white/80 mt-2">
+                            Fill out the form and our team will get back to you within 24 hours
                         </p>
                     </div>
 
                     <form onSubmit={handleSubmit} className="p-8">
                         {submitSuccess && (
-                            <div className="mb-6 p-4 bg-green-100 border border-green-400 text-green-700 rounded">
-                                Thank you for your inquiry! We will contact you soon.
+                            <div className="mb-6 p-4 bg-primary/10 border border-primary/30 text-primary rounded">
+                                <p>Thank you for your message. We'll get back to you soon!</p>
                             </div>
                         )}
 
@@ -242,7 +242,7 @@ const ContactForm = () => {
                                             value="email"
                                             checked={formData.preferredContact === 'email'}
                                             onChange={handleChange}
-                                            className="form-radio h-4 w-4 text-blue-600"
+                                            className="form-radio h-4 w-4 text-primary"
                                         />
                                         <span className="ml-2 text-gray-700">Email</span>
                                     </label>
@@ -253,7 +253,7 @@ const ContactForm = () => {
                                             value="phone"
                                             checked={formData.preferredContact === 'phone'}
                                             onChange={handleChange}
-                                            className="form-radio h-4 w-4 text-blue-600"
+                                            className="form-radio h-4 w-4 text-primary"
                                         />
                                         <span className="ml-2 text-gray-700">Phone</span>
                                     </label>
@@ -336,7 +336,7 @@ const ContactForm = () => {
                                     className={`form-checkbox h-4 w-4 text-blue-600 ${errors.agreeToTerms ? 'border-red-500' : ''}`}
                                 />
                                 <span className="ml-2 text-gray-700">
-                                    I agree to the <a href="#" className="text-blue-600 hover:underline">Terms and Conditions</a> and <a href="#" className="text-blue-600 hover:underline">Privacy Policy</a>
+                                    I agree to the <a href="#" className="text-primary hover:underline">Terms and Conditions</a> and <a href="#" className="text-primary hover:underline">Privacy Policy</a>
                                 </span>
                             </label>
                             {errors.agreeToTerms && <p className="text-red-500 text-sm mt-1">{errors.agreeToTerms}</p>}
@@ -347,7 +347,7 @@ const ContactForm = () => {
                             <button
                                 type="submit"
                                 disabled={isSubmitting}
-                                className={`bg-blue-600 text-white px-8 py-3 rounded-md font-medium hover:bg-blue-700 transition-colors ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
+                                className={`bg-primary text-white px-8 py-3 rounded-md font-medium hover:bg-primary/90 transition-colors ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
                             >
                                 {isSubmitting ? (
                                     <span className="flex items-center justify-center">

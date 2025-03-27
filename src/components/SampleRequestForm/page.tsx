@@ -102,8 +102,8 @@ const SampleRequestForm: React.FC<SampleRequestFormProps> = ({ isOpen, onClose, 
         <div className="p-4">
           {isSubmitted ? (
             <div className="text-center py-8">
-              <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-green-100 mb-4">
-                <svg className="h-6 w-6 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <div className="mx-auto flex items-center justify-center h-12 w-12 rounded-full bg-primary/10 mb-4">
+                <svg className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
               </div>
@@ -295,7 +295,7 @@ const SampleRequestForm: React.FC<SampleRequestFormProps> = ({ isOpen, onClose, 
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className={`px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
+                  className={`px-4 py-2 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors ${isSubmitting ? 'opacity-70 cursor-not-allowed' : ''}`}
                 >
                   {isSubmitting ? 'Submitting...' : 'Submit Request'}
                 </button>
