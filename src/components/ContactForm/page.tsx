@@ -184,7 +184,7 @@ const ContactForm = () => {
                     <form onSubmit={handleSubmit} className="p-8">
                         {submitSuccess && (
                             <div className="mb-6 p-4 bg-primary/10 border border-primary/30 text-primary rounded">
-                                <p>Thank you for your message. We'll get back to you soon!</p>
+                                <p>Thank you for your message. We&apos;ll get back to you soon!</p>
                             </div>
                         )}
 

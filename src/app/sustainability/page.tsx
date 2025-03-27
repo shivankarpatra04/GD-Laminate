@@ -30,13 +30,13 @@ const SustainabilityPage = () => {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-6">Environmental Responsibility</h2>
               <p className="text-gray-600 mb-4">
-                At GT Laminate, sustainability isn't just a buzzword—it's a core value that guides every aspect of our operations. We believe that beautiful interiors shouldn't come at the expense of our environment.
+                At GT Laminate, sustainability isn&apos;t just a buzzword—it&apos;s a core value that guides every aspect of our operations. We believe that beautiful interiors shouldn&apos;t come at the expense of our environment.
               </p>
               <p className="text-gray-600 mb-4">
                 Our commitment to environmental stewardship is reflected in our responsible sourcing practices, eco-friendly manufacturing processes, and continuous efforts to reduce our carbon footprint.
               </p>
               <p className="text-gray-600">
-                We're proud to be leading the industry in sustainable laminate solutions that don't compromise on quality or aesthetics.
+                We&apos;re proud to be leading the industry in sustainable laminate solutions that don&apos;t compromise on quality or aesthetics.
               </p>
             </div>
             <div className="md:w-1/2 bg-gray-200 h-96 rounded-lg flex items-center justify-center">
@@ -56,7 +56,7 @@ const SustainabilityPage = () => {
             <h2 className="text-3xl font-bold mb-4">Our Sustainability Initiatives</h2>
             <div className="w-24 h-1 bg-primary mx-auto mb-6"></div>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              We're taking concrete steps to minimize our environmental impact while maximizing the value we create for our customers and communities.
+              We&apos;re taking concrete steps to minimize our environmental impact while maximizing the value we create for our customers and communities.
             </p>
           </div>
 
@@ -93,7 +93,7 @@ const SustainabilityPage = () => {
               </div>
               <h3 className="text-xl font-bold mb-2 text-center">Circular Economy</h3>
               <p className="text-gray-600">
-                We're working towards a circular business model by reducing waste, reusing materials, and recycling wherever possible. Our goal is to minimize landfill waste from our operations.
+                We&apos;re working towards a circular business model by reducing waste, reusing materials, and recycling wherever possible. Our goal is to minimize landfill waste from our operations.
               </p>
             </div>
           </div>
