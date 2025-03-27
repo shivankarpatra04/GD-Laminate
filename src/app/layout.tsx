@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GD Laminates | Premium Laminate Solutions",
+  title: "GT Laminate | Premium Laminate Solutions",
   description: "Explore our wide range of premium laminates for your interior design needs. Inspired by Merino Laminates.",
 };
 

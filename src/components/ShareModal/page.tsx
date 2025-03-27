@@ -21,33 +21,33 @@ const ShareModal: React.FC<ShareModalProps> = ({ isOpen, onClose, product }) => 
     if (!isOpen) return null;
 
     const shareUrl = typeof window !== 'undefined' ? window.location.href : '';
-    const shareText = `Check out ${product.name} from GD Laminates${product.description ? ': ' + product.description : ''}`;
+    const shareText = `Check out ${product.name} from GT Laminate${product.description ? ': ' + product.description : ''}`;
 
     const sharePlatforms = [
         {
             name: 'Facebook',
             icon: <Facebook className="w-5 h-5" />,
-            url: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`,
+            url: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(shareText)}`,
             color: 'bg-blue-600 hover:bg-blue-700'
         },
         {
             name: 'Twitter',
             icon: <Twitter className="w-5 h-5" />,
-            url: `https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}`,
+            url: `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`,
             color: 'bg-sky-500 hover:bg-sky-600'
         },
         {
             name: 'LinkedIn',
             icon: <Linkedin className="w-5 h-5" />,
-            url: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`,
+            url: `https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(shareUrl)}&title=${encodeURIComponent(product.name)}&summary=${encodeURIComponent(shareText)}`,
             color: 'bg-blue-700 hover:bg-blue-800'
         },
         {
             name: 'Email',
             icon: <Mail className="w-5 h-5" />,
-            url: `mailto:?subject=Check out this product from GD Laminates&body=${encodeURIComponent(shareText)}%20${encodeURIComponent(shareUrl)}`,
+            url: `mailto:?subject=Check out this product from GT Laminate&body=${encodeURIComponent(shareText)}%20${encodeURIComponent(shareUrl)}`,
             color: 'bg-gray-600 hover:bg-gray-700'
-        }
+        },
     ];
 
     const handleShare = (url: string) => {

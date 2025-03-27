@@ -32,7 +32,7 @@ const SustainabilityPage = () => {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-6">Environmental Responsibility</h2>
               <p className="text-gray-600 mb-4">
-                At GD Laminates, sustainability isn&apos;t just a buzzword—it&apos;s a core value that guides every aspect of our operations. We believe that beautiful interiors shouldn&apos;t come at the expense of our environment.
+                At GT Laminate, sustainability isn&apos;t just a buzzword—it&apos;s a core value that guides every aspect of our operations. We believe that beautiful interiors shouldn&apos;t come at the expense of our environment.
               </p>
               <p className="text-gray-600 mb-4">
                 Our commitment to environmental stewardship is reflected in our responsible sourcing practices, eco-friendly manufacturing processes, and continuous efforts to reduce our carbon footprint.
@@ -154,16 +154,11 @@ const SustainabilityPage = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">Join Us in Making a Difference</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
-            Choose sustainable laminates for your next project and be part of the solution for a greener future.
+            Partner with us to create sustainable, beautiful spaces that respect our environment.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/products" className="bg-white text-green-700 px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors">
-              Explore Eco-Friendly Products
-            </Link>
-            <Link href="/contact-us" className="bg-transparent border-2 border-white text-white px-6 py-3 rounded-md font-medium hover:bg-white/10 transition-colors">
-              Contact Our Sustainability Team
-            </Link>
-          </div>
+          <Link href="/contact-us" className="inline-block bg-white text-green-700 px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors">
+            Get in Touch
+          </Link>
         </div>
       </section>
 

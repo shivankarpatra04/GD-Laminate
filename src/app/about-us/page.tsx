@@ -17,7 +17,7 @@ export default function AboutUs() {
         <div className="absolute inset-0 bg-gradient-to-r from-gray-900 to-transparent z-10"></div>
         <div className="container mx-auto px-4 relative z-20">
           <div className="max-w-3xl">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About GD Laminates</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">About GT Laminate</h1>
             <p className="text-xl mb-8">Crafting premium laminates for exceptional interiors since 2005</p>
           </div>
         </div>
@@ -30,13 +30,13 @@ export default function AboutUs() {
             <div className="md:w-1/2">
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-600 mb-4">
-                GD Laminates was founded with a vision to transform interior spaces with innovative and high-quality laminate solutions. What began as a small family business has grown into one of the leading laminate manufacturers in the region.
+                GT Laminate was founded with a vision to transform interior spaces with innovative and high-quality laminate solutions. What began as a small family business has grown into one of the leading laminate manufacturers in the region.
               </p>
               <p className="text-gray-600 mb-4">
                 With over 15 years of experience in the industry, we have established ourselves as pioneers in laminate technology, constantly pushing boundaries to create products that combine aesthetic appeal with exceptional durability.
               </p>
               <p className="text-gray-600">
-                Today, GD Laminates offers over 500+ designs and textures, catering to diverse customer needs across residential, commercial, and institutional sectors.
+                Today, GT Laminate offers over 500+ designs and textures, catering to diverse customer needs across residential, commercial, and institutional sectors.
               </p>
             </div>
             <div className="md:w-1/2 bg-gray-200 h-96 rounded-lg flex items-center justify-center">

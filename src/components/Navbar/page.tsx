@@ -1,4 +1,5 @@
 'use client';
+
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 
@@ -41,9 +42,9 @@ export default function Navbar() {
           {/* Logo Section */}
           <div className="flex-shrink-0 flex items-center">
             {/* You can add a logo image here */}
-            {/* <Image src="/logo.png" alt="GD Laminates Logo" width={40} height={40} className="mr-3" /> */}
+            {/* <Image src="/logo.png" alt="GT Laminate Logo" width={40} height={40} className="mr-3" /> */}
             <Link href="/" className="font-bold text-xl text-gray-800 hover:text-blue-600 transition-colors">
-              <span className="text-blue-600">GD</span> Laminates
+              <span className="text-blue-600">GT</span> Laminate
             </Link>
           </div>
 

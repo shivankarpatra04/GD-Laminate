@@ -42,14 +42,14 @@ const ContactPage = () => {
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-4">Contact Information</h3>
               <p className="text-gray-600 mb-2">Phone: +91 98765 43210</p>
-              <p className="text-gray-600 mb-2">Email: info@gdlaminates.com</p>
+              <p className="text-gray-600 mb-2">Email: info@gtlaminate.com</p>
               <p className="text-gray-600">Fax: +91 22 1234 5678</p>
             </div>
 
             <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-bold mb-4">Customer Support</h3>
               <p className="text-gray-600 mb-2">For technical assistance:</p>
-              <p className="text-gray-600 mb-2">support@gdlaminates.com</p>
+              <p className="text-gray-600 mb-2">support@gtlaminate.com</p>
               <p className="text-gray-600">Helpline: +91 98765 12345</p>
             </div>
           </div>
